@@ -1,9 +1,6 @@
-print("hello world!")
-name= "kiran"
-print("the athor is: ",name)
-print("simple calculator")
-print("python")
-if name=="kiran":
-    print("hello",name)
-else:
-    print("your not a kiran")
+#sum of two numbers using function
+def sum(a,b):
+    return a+b
+a=int(input("Enter the value of number1 "))
+b=int(input("enter the value of num2 "))
+sum(a,b)
